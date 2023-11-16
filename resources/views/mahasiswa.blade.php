@@ -10,7 +10,7 @@
 
 <nav class="navbar navbar-expand-lg bg-body-tertiary">
   <div class="container-fluid">
-    <a class="navbar-brand" href="/">Laravel A1</a>
+    <a class="navbar-brand" href="/">Laravel</a>
     <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
       <span class="navbar-toggler-icon"></span>
     </button>
@@ -25,7 +25,9 @@
         <li class="nav-item">
           <a class="nav-link" href="/about">About</a>
         </li>
-        </ul>
+        
+        
+      </ul>
       <form class="d-flex" role="search">
         <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
         <button class="btn btn-outline-success" type="submit">Search</button>
@@ -33,9 +35,12 @@
     </div>
   </div>
 </nav>
-    <div class="container">
-    <h1>Halaman Mahasiswa</h>
-
+    
+<div class="container" style="margin-left: 30 px">
+    <h1>Ini adalah Halaman Mahasiswa</h>
+  </div>
+</nav>
+</div>
         
 
 
