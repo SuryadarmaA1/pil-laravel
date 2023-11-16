@@ -36,14 +36,19 @@
   </div>
 </nav>
 
-<div class="container" style="margin-left: 10 px">
-    <h1>Ini adalah Halaman Home</h>
-  </div>
-</nav>
+<div class="container">
+<h1>Ini adalah Halaman Home</h>
+
+   
+
+
+<div class="row">
+  <div class="col-4" style="background-color: yellow">Halaman A</div>
+  <div class="col-4" style="background-color: blue">Halaman B</div>
+  <div class="col-4" style="background-color: green">Halaman C</div>
+
 </div>
-
-
-    
+</div>
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
 </body>
 </html>
