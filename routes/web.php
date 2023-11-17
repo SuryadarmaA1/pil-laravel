@@ -43,12 +43,15 @@ use Illuminate\Support\Facades\Route;
     Route::get('profile', function () {
     return view('profile');
 });
-Route::get('array', function (){
-    $nilai_awal = 1;
-    while ($nilai_awal <= 100) {
-        echo 'Hello Laravel ' . $nilai_awal . 'x <br>';
-        $nilai_awal++;
-    }
+Route::get('array', function () {
+    // $nilai_awal = 1;
+    // while ($nilai_awal <= 100) {
+    //     echo 'Hello Laravel ' . $nilai_awal . 'x <br>';
+    //     $nilai_awal++; )
     
+    for ($i=1; $i <= 5; $i++) {
+        echo 'Hello World ' . $i . 'x<br>';
+
+    }
     
 });
