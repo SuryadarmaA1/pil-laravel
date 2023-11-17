@@ -36,18 +36,19 @@ use Illuminate\Support\Facades\Route;
     Route::get('mahasiswa', function () {
     return view('mahasiswa');
 });
-    Route::get('profile', function () {
-    return view('profile');
-});
+    
     Route::get('about', function () {
     return view('about');
 });
-    Route::get('tabel', function () {
-    $npm = ['123', '321', '456'];
-    $nama_mahasiswa = ['Joko','Rudi', 'Tono'];
-    $jk = ['L', 'L', 'L'];
-    $alamat = ['Medan', 'Sorong', 'Makasar'];
-    $jumlah = count($nama_mahasiswa);
-    return view('pertemuan5/tabel', compact('nama_mahasiswa', 'jumlah', 'npm', 'alamat', 'jk'));
+    Route::get('profile', function () {
+    return view('profile');
 });
-
+Route::get('array', function (){
+    $nilai_awal = 1;
+    while ($nilai_awal <= 100) {
+        echo 'Hello Laravel ' . $nilai_awal . 'x <br>';
+        $nilai_awal++;
+    }
+    
+    
+});
