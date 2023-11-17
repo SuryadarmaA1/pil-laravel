@@ -34,7 +34,10 @@ use Illuminate\Support\Facades\Route;
     return view('index');
 });
     Route::get('mahasiswa', function () {
-    return view('mahasiswa');
+    $npm = [123,124,125,136];
+    $nama = ['jono','joni','juna','jona'];
+    $jumlah = count($npm);
+    return view('mahasiswa', compact('npm','jumlah','nama'));
 });
     
     Route::get('about', function () {

@@ -50,31 +50,24 @@
         </tr>
       </thead>
       <tbody>
+        <?php $nilai_awal = 0; ?>
+        @while ($nilai_awal < $jumlah)
         <tr>
-          <td>123</td>
-          <td>Surya Darma</td>
+          <td>{{ $npm[$nilai_awal] }}</td>
+          <td>{{ $nama[$nilai_awal]}}</td>
           <td>Laki-laki</td>
           <td>8 April 2004</td>
-          <td rowspan="3">Kisaran</td>
+          <td>Kisaran</td>
         </tr>
-        <tr>
-          <td>125</td>
-          <td>Surya</td>
-          <td>Laki-laki</td>
-          <td>9 April 2004</td>
-        </tr>
-        <tr>
-          <td>126</td>
-          <td>Darma</td>
-          <td>Laki-laki</td>
-          <td>10 April 2004</td>
-        </tr>
+
+        <?php $nilai_awal++ ?>
+        @endwhile
       </tbody>
     </table>
   </div>
 
 
-        
+  
 
 
 
