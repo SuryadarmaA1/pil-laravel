@@ -38,9 +38,42 @@
     
 <div class="container" style="margin-left: 30 px">
     <h1>Ini adalah Halaman Mahasiswa</h>
+
+    <table class="table table-danger table-sm table-hover table-striped table-bordered text-center">
+      <thead>
+        <tr>
+          <th>NPM</th>
+          <th>Nama Mahasiswa</th>
+          <th>Jenis Kelamin</th>
+          <th colspan="2">TTL</th>
+
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td>123</td>
+          <td>Surya Darma</td>
+          <td>Laki-laki</td>
+          <td>8 April 2004</td>
+          <td rowspan="3">Kisaran</td>
+        </tr>
+        <tr>
+          <td>125</td>
+          <td>Surya</td>
+          <td>Laki-laki</td>
+          <td>9 April 2004</td>
+        </tr>
+        <tr>
+          <td>126</td>
+          <td>Darma</td>
+          <td>Laki-laki</td>
+          <td>10 April 2004</td>
+        </tr>
+      </tbody>
+    </table>
   </div>
-</nav>
-</div>
+
+
         
 
 
